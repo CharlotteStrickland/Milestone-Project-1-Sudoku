@@ -1,0 +1,26 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+hr {
+    width: 600px;
+}
+
+#errors {
+    color:salmon;
+}
+
+#board {
+    width: 500px;
+    height: 500px;
+
+    background-color: antiquewhite;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#digits {
+    
+}
