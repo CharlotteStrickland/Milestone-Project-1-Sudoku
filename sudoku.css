@@ -15,12 +15,44 @@ hr {
     width: 500px;
     height: 500px;
 
-    background-color: antiquewhite;
+    background-color: rgb(253, 200, 210);
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
 
+.tile {
+    width: 53px;
+    height: 53px;
+    border: 1px solid slategray;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #digits {
-    
+    width: 500px;
+    height: 55px;
+
+    background-color: rgb(172, 235, 235);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    width: 53px;
+    height: 53px;
+    border: 1px solid black;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
