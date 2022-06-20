@@ -23,7 +23,7 @@ hr {
 .tile {
     width: 48px;
     height: 48px;
-    border: 1px solid slategray;
+    border: 1px solid lightgrey;
 
     /* Text */
     font-size: 20px;
@@ -62,4 +62,12 @@ hr {
 
 .tile-start {
     background-color: lightcyan;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid black;
+}
+
+.vertical-line {
+    border-right: 1px solid black;
 }
