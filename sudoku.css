@@ -71,3 +71,24 @@ hr {
 .vertical-line {
     border-right: 1px solid black;
 }
+
+#diff-1 {
+    background-color: lightsteelblue;
+}
+
+#diff-2 {
+    background-color: lightsteelblue;
+}
+
+#diff-3 {
+    background-color: lightsteelblue;
+}
+
+#diff-4 {
+    background-color: lightsteelblue;
+}
+
+#stats {
+    display: flex;
+    justify-content: center;
+}
