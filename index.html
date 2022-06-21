@@ -11,8 +11,24 @@
     <script src="sudoku.js"></script>
 </head>
 
-<body>
+<header>
     <h1>Sudoku Fun</h1>
+    <div id="diff">
+        <h2>Choose Difficulty Level: </h2>
+        <button id="time-1" name="diff" value="easy">Easy</button>
+        <button id="time-2" name="diff" value="normal">Normal</button>
+        <button id="time-3" name="diff" value="medium">Medium</button>
+        <button id="time-4" name="diff" value="hard">Hard</button>
+    </div>
+    <div id="time">
+        <h3>Choose Time: </h3>
+        <label>3 Min</label>
+        <label>5 Min</label>
+        <label>10 Min</label>
+    </div>
+</header>
+
+<body>
     <hr>
     <h3 id="errors">0</h3>
 
@@ -22,6 +38,18 @@
     <div id="digits">
     </div>
 
+    <br>
+    <div class="sudokuDifficulty">
+        <button id="easy">Easy</button>
+        <button id="normal">Normal</button>
+        <button id="medium">Medium</button>
+        <button id="hard">Hard</button>
+    </div>
+
 </body>
+
+<footer>
+
+</footer>
 
 </html>
