@@ -1,3 +1,5 @@
+//Load boards from file or manually
+
 
 var numSelected = null;
 var tileSelected = null;
