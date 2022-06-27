@@ -15,10 +15,13 @@
     <h1>Sudoku Fun</h1>
     <div id="diff">
         <h2>Choose Difficulty Level: </h2>
-        <button id="diff-1" name="diff" value="easy">Easy</button>
-        <button id="diff-2" name="diff" value="normal">Normal</button>
-        <button id="diff-3" name="diff" value="medium">Medium</button>
-        <button id="diff-4" name="diff" value="hard">Hard</button>
+        <!-- <label><input id="diff-1" type="radio" name="diff" value="easy" checked>Easy</label>
+        <label><input id="diff-2" type="radio" name="diff" value="normal">Normal</label>
+        <label><input id="diff-3" type="radio" name="diff" value="hard">Hard</label> -->
+        <button id="easy" onclick="changeDifficulty(1)">Easy</button>
+        <button id="normal" onclick="changeDifficulty(2)">Normal</button>
+        <button id="medium" onclick="changeDifficulty(3)">Medium</button>
+        <button id="hard" onclick="changeDifficulty(4)">Hard</button>
     </div>
     <div id="time">
         <h3>Choose Time: </h3>
@@ -27,23 +30,38 @@
         <label><input id="time-3" type="radio" name="time" value="ten">10 Min</label>
     </div>
 <br>
-    <button id="reset-btn">Reset Game</div>
+    <button id="start-btn">Start Game</div>
 </header>
 
 <body>
     <hr>
     <div id="stats">
         <p id="timer"></p>
-        <h3 id="errors">0</h3>
     </div>
+
+    <!-- <div id="game">
+        <div id="board"></div>
+        <div id="number-container" class="hidden">
+           <p id="one">1</p>
+           <p id="two">2</p>
+           <p id="three">3</p>
+           <p id="four">4</p>
+           <p id="five">5</p>
+           <p id="six">6</p>
+           <p id="seven">7</p>
+           <p id="eight">8</p>
+           <p id="nine">9</p>
+        </div>
+    </div> -->
 
     <!-- 9x9 board-->
     <div id="board"></div>
     <br>
     <div id="digits">
     </div>
-
-    <br>
+    
+    
+<br>
 
 </body>
 
@@ -51,4 +69,4 @@
     <p>Made by Charlotte Strickland, Copyright 2022</p>
 </footer>
 
-</html>
+</html> 
