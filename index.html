@@ -5,68 +5,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sudoku Fun</title>
-
-    <link rel="stylesheet" href="./sudoku.css">
-    <script src="sudoku.js"></script>
+    <title>Sudoku Fun 2</title>
+    <link rel="stylesheet" href="./sudoku2.css">
+    <script src="sudoku2.js"></script>
 </head>
 
 <header>
     <h1>Sudoku Fun</h1>
-    <div id="diff">
-        <h2>Choose Difficulty Level: </h2>
-        <!-- <label><input id="diff-1" type="radio" name="diff" value="easy" checked>Easy</label>
-        <label><input id="diff-2" type="radio" name="diff" value="normal">Normal</label>
-        <label><input id="diff-3" type="radio" name="diff" value="hard">Hard</label> -->
-        <button id="easy" onclick="changeDifficulty(1)">Easy</button>
-        <button id="normal" onclick="changeDifficulty(2)">Normal</button>
-        <button id="medium" onclick="changeDifficulty(3)">Medium</button>
-        <button id="hard" onclick="changeDifficulty(4)">Hard</button>
+    <div id="setup-game">
+        <div id="diff">
+            <h2>Choose Difficulty Level: </h2>
+            <label><input id="diff-1" type="radio" name="diff" value="easy" checked>Easy</label>
+            <label><input id="diff-2" type="radio" name="diff" value="normal">Normal</label>
+            <label><input id="diff-3" type="radio" name="diff" value="hard">Hard</label>
+        </div>
+        <div id="time">
+            <h3>Choose Time: </h3>
+            <label><input id="time-1" type="radio" name="time" value="three" checked>3 Min</label>
+            <label><input id="time-2" type="radio" name="time" value="five">5 Min</label>
+            <label><input id="time-3" type="radio" name="time" value="ten">10 Min</label>
+        </div>
+        <div id="theme">
+            <h3> Choose Theme: </h3>
+            <label><input id="theme-1" type="radio" name="theme" value="light">Light</label>
+            <label><input id="theme-2" type="radio" name="theme" value="dark">Dark</label>
+        </div>
     </div>
-    <div id="time">
-        <h3>Choose Time: </h3>
-        <label><input id="time-1" type="radio" name="time" value="three" checked>3 Min</label>
-        <label><input id="time-2" type="radio" name="time" value="five">5 Min</label>
-        <label><input id="time-3" type="radio" name="time" value="ten">10 Min</label>
+    <br>
+    <button id="start-btn">Create New Game </button>
     </div>
-<br>
-    <button id="start-btn">Start Game</div>
 </header>
 
 <body>
-    <hr>
+
     <div id="stats">
         <p id="timer"></p>
-    </div>
 
-    <!-- <div id="game">
-        <div id="board"></div>
-        <div id="number-container" class="hidden">
-           <p id="one">1</p>
-           <p id="two">2</p>
-           <p id="three">3</p>
-           <p id="four">4</p>
-           <p id="five">5</p>
-           <p id="six">6</p>
-           <p id="seven">7</p>
-           <p id="eight">8</p>
-           <p id="nine">9</p>
-        </div>
-    </div> -->
-
-    <!-- 9x9 board-->
-    <div id="board"></div>
-    <br>
-    <div id="digits">
-    </div>
-    
-    
-<br>
+        <div id="game">
+            <div id="board"></div>
+            <div id="number-container" class="hidden">
+                <p id="one">1</p>
+                <p id="two">2</p>
+                <p id="three">3</p>
+                <p id="four">4</p>
+                <p id="five">5</p>
+                <p id="six">6</p>
+                <p id="seven">7</p>
+                <p id="eight">8</p>
+                <p id="nine">9</p>
+            </div>
 
 </body>
 
-<footer>
-    <p>Made by Charlotte Strickland, Copyright 2022</p>
-</footer>
-
-</html> 
+</html>
