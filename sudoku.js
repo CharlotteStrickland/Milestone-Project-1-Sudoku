@@ -193,7 +193,6 @@ function checkDone() {
 function endGame() {
     disableSelect = true;
     clearTimeout(timer);
-    //Display win or loss message
     if (timeRemaining === 0) {
         id("timer").textContent = "You Lost!";
     } else {
