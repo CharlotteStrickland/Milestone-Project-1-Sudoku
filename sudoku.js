@@ -71,9 +71,9 @@ function startGame() {
 
 function startTimer() {
     // Set time remaining based on input
-    if (id("time-1").checked) timeRemaining = 180;
-    else if (id("time-2").checked) timeRemaining = 300;
-    else timeRemaining = 600;
+    if (id("time-1").checked) timeRemaining = 300;
+    else if (id("time-2").checked) timeRemaining = 600;
+    else timeRemaining = 900;
     // Set timer for first second
     id("timer").textContent = timeConversion(timeRemaining);
     // Set timer to update every second
@@ -224,7 +224,6 @@ function clearPrevious() {
     for (let i = 0; i < id("number-container").children.length; i++) {
         id("number-container").children[i].classList.remove("selected");
     }
-    // Clear selected variables
     selectedTile = null;
     selectedNum = null;
 }
