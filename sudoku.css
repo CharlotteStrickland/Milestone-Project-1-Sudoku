@@ -15,8 +15,23 @@ header {
 
 h1 {
     font-size: 38pt;
-    color: #5F9EA0;
+    color:  #FF69B4;
     text-shadow: 1px 1px black;
+    font-family: 'Shadows Into Light Two', cursive;
+    margin-bottom: -10px;
+    margin-top: -2px;
+    font-style: bold;
+}
+
+h2 {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+h3 {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 22px;
 }
 
 #setup-game {
@@ -24,7 +39,7 @@ h1 {
     justify-content: center;
 }
 
-#setup-game > * {
+#setup-game>* {
     margin-bottom: -10px;
     padding-left: 50px;
     padding-right: 50px;
@@ -34,12 +49,19 @@ h1 {
 
 button {
     justify-self: center;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 18px;
+    border-radius: 52%;
+    background-color: #AFEEEE;
 }
 
 p#timer {
+    margin-top: 10px;
     font-size: 25px;
     font-weight: bold;
     text-align: center;
+    color: salmon;
+    font-family: 'Shadows Into Light Two', cursive;
 }
 
 #game {
@@ -47,41 +69,43 @@ p#timer {
     justify-content: center;
 }
 
-#number-container > * {
-    border: 1px solid grey;
-    border-radius: 10%;
-    width: 60px;
-    height: 60px;
-    font-size: 40pt;
-    margin-left: 50px;
-    margin-top: 5px;
+#number-container>* {
+    border: 1px solid #000000;
+    border-radius: 62%;
+    width: 53px;
+    height: 53px;
+    font-size: 28pt;
+    margin-left: 4px;
+    margin-top: 0px;
     margin-bottom: 5px;
     text-align: center;
+    font-family: 'Shadows Into Light Two', cursivew;
 }
 
 #board {
+    font-family: 'Shadows Into Light Two', cursive;
     padding-top: 10px;
-    margin-top: 10px;
+    margin-top: -9px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: flex-start;
-    width: 600px;
-    height: 600px;
+    width: 577px;
+    height: 577px;
 }
 
 .tile {
     border: 1px solid #A9A9A9;
-    width: 60px;
-    height: 60px;
+    width: 57px;
+    height: 57px;
     text-align: center;
     margin: 0px;
     vertical-align: middle;
-    font-size: 40pt;
+    font-size: 35pt;
 }
 
 p.selected {
-    background-color: #D8BFD8;
+    background-color: #faacd3;;
 }
 
 p.incorrect {
@@ -96,3 +120,7 @@ p.incorrect {
     border-bottom: 2px solid black;
 }
 
+label {
+    font-size: 18px;
+    font-family: 'Shadows Into Light Two', cursive;
+}

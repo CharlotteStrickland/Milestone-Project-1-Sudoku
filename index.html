@@ -8,28 +8,31 @@
     <title>Sudoku Fun Game</title>
     <link rel="stylesheet" href="./sudoku.css">
     <script src="sudoku.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
 </head>
 
 <header>
-    <h1>Sudoku Fun</h1>
-    <h2>Let's Play for Fun!</h2>
-    <div id="setup-game" class="fixed">
+    <h1>SUDOKU TIME...</h1>
+    <h2>ready. set. go!</h2>
+    <div id="setup-game">
         <div id="diff">
             <h3>Choose Difficulty Level: </h3>
-            <label><input id="diff-1" type="radio" name="diff" value="easy" checked>Easy</label>
-            <label><input id="diff-2" type="radio" name="diff" value="normal">Normal</label>
-            <label><input id="diff-3" type="radio" name="diff" value="hard">Hard</label>
+            <label><input id="diff-1" type="radio" name="diff" value="easy" checked>easy</label>
+            <label><input id="diff-2" type="radio" name="diff" value="normal">normal</label>
+            <label><input id="diff-3" type="radio" name="diff" value="hard">hard</label>
         </div>
         <div id="time">
             <h3>Choose Time: </h3>
-            <label><input id="time-1" type="radio" name="time" value="three" checked>5 Min</label>
-            <label><input id="time-2" type="radio" name="time" value="five">10 Min</label>
-            <label><input id="time-3" type="radio" name="time" value="ten">15 Min</label>
+            <label><input id="time-1" type="radio" name="time" value="three" checked>5 min</label>
+            <label><input id="time-2" type="radio" name="time" value="five">10 min</label>
+            <label><input id="time-3" type="radio" name="time" value="ten">15 min</label>
         </div>
         <div id="theme">
             <h3> Choose Theme: </h3>
-            <label><input id="theme-1" type="radio" name="theme" value="light" checked>Light</label>
-            <label><input id="theme-2" type="radio" name="theme" value="dark">Dark</label>
+            <label><input id="theme-1" type="radio" name="theme" value="light" checked>light</label>
+            <label><input id="theme-2" type="radio" name="theme" value="dark">dark</label>
         </div>
     </div>
     <br>
@@ -55,7 +58,5 @@
                 <p id="eight">8</p>
                 <p id="nine">9</p>
             </div>
-
 </body>
-
 </html>
