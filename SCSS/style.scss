@@ -1,0 +1,14 @@
+@import "utilities";
+@import "config";
+@import "btnConfig";
+
+.hidden {
+    display: none;
+}
+
+body.dark {
+    background-color: $dark-color;
+    font-family: $font-stack;
+    line-height: 1;
+}
+
